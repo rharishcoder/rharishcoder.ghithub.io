@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>Login Page</title>
+<style>
+    body {
+         background-image:url("https://img.freepik.com/free-vector/gradient-technological-background_23-2148884155.jpg" );
+         background-repeat:no-repeat;
+         background-size:cover;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    
+        
+    }
+ .login-container {
+       
+      background-color:"white";
+        padding: 6 0px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgb(247, 247, 247);
+        width: 300px;
+        text-align: center;
+    }
+    .login-container h2 {
+        margin-bottom: 20px;
+    }
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    .login-container input[type="submit"] {
+        background-color:"green";
+        color:rgb(14, 1, 1);
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .login-container input[type="submit"]:hover {
+        background-color:#45a049;
+    }
+
+    h2{
+        color: white;
+        
+    }
+
+</style>
+</head>
+<body>
+<div class="login-container">
+    <h2>Login</h2>
+    <form action= "forms.html" method="post">
+        <input type="text" id="username" name="username" placeholder="Username" required><br><br>
+        <input type="password" id="password" name="password" placeholder="Password" required><br><br>
+        <input type="submit" value="Login">
+    </form>
+</div>
+</body>
+</html>
